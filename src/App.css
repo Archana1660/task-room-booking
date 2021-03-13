@@ -1,0 +1,40 @@
+button {
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.App {
+  text-align: center;
+}
+.wrapper {
+  /* border: 1px solid #000; */
+  width: 40%;
+  margin: 10px auto;
+}
+
+.infoWrapper {
+  border: 1px solid;
+  padding: 1rem;
+}
+
+.room,
+.adults,
+.children {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.adults {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.decrease {
+  background-color: blue;
+  color: white;
+}
+
+.increase {
+  background-color: pink;
+}
